@@ -1,0 +1,1 @@
+export type VoicePart = 'soprano' | 'alto' | 'tenor' | 'bass';

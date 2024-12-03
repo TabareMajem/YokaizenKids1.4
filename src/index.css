@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .manga-bubble {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 85% 100%, 50% 75%, 0% 75%);
+  }
+}
+
+@font-face {
+  font-family: 'Comic';
+  src: url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+}
+
+.font-comic {
+  font-family: 'Comic', system-ui, sans-serif;
+}
